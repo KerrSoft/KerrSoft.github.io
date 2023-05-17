@@ -44,8 +44,19 @@ div.inline
 	width: 100%;
 	height: 100%;
 	background: #81D8CF;
+	vertical-align:middle;
 }
 .title
 {
 	font-size: 25px;
+	vertical-align:middle;
+}
+a
+{
+	text-decoration: none;
+	color: #000000;
+}
+a:hover
+{
+	color:#ffffff;
 }
