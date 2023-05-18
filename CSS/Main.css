@@ -1,6 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-<<<<<<< HEAD
 html,body,div{
 
     height:100%;
@@ -13,9 +12,6 @@ html,body,div{
 
 }
 * {
-=======
-*{
->>>>>>> 728b4fba9e932edce6349f0428e0df29219b19c3
      margin:0;
       padding:0;
 }
@@ -110,5 +106,3 @@ li,ui
 {
 	list-style: none;
 }
-=======
->>>>>>> 728b4fba9e932edce6349f0428e0df29219b19c3
