@@ -1,20 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-html,body,div{
-
-    height:100%;
-
-    box-sizing:border-box;
-
-    padding: 0;
-
-    margin: 0;
-
-}
-* {
-     margin:0;
-      padding:0;
-}
 .box{
      position:absolute;
      top:0;
@@ -29,21 +14,20 @@ body
 }
 #main
 {
-	width:100%;
+	width:1600px;
 	height: 100%;
-	overflow-y: scroll;
 }
 #head
 {
-	width:100%;
+	width:1600px;
 	height: 50px;
 	background: #81D8CF;
 	position: fixed;
 }
 #logo
 {
-	width: 100%;
-	height: 200px;
+	width: 200px;
+	height: 50px;
 }
 div.inline
 {
@@ -56,8 +40,8 @@ div.online
 }
 #meau
 {
-	width: 100%;
-	height: 100%;
+	width: 1400px;
+	height: 50px;
 	background: #81D8CF;
 	vertical-align:middle;
 }
@@ -83,7 +67,6 @@ a:hover
 #end
 {
 	background: #53565C;
-	min-height: 100;
 	height: 200px;
 	color: #FFFFFF;
 	
@@ -104,4 +87,8 @@ a:hover
 li,ui
 {
 	list-style: none;
+}
+#after
+{
+	overflow-y: scroll;
 }
