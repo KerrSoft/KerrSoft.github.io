@@ -12,7 +12,11 @@
 }
 p.music
 {
-	font-size: 25px;
 	
 	
+	
+}
+#musicdata
+{
+	overflow-y: scroll;
 }
