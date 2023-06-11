@@ -1,11 +1,5 @@
 @charset "utf-8";
 /* CSS Document */
-.box{
-     top:0;
-     bottom:0;
-     left:0;
-     right: 0;
-}
 body
 {
 	margin: 0px;
@@ -15,7 +9,7 @@ body
 {
 	width:1600px;
 	height: 100%;
-	overflow-y: auto;
+	overflow-y:scroll;
 	overflow-x: auto;
 }
 #head
@@ -23,7 +17,6 @@ body
 	width:1600px;
 	height: 50px;
 	background: #81D8CF;
-	position: fixed;
 }
 #logo
 {
@@ -88,8 +81,4 @@ a:hover
 li,ui
 {
 	list-style: none;
-}
-#after
-{
-	overflow-x: auto;
 }
